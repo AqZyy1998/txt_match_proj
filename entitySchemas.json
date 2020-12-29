@@ -1,0 +1,73 @@
+{"entitySchemas": [
+      {
+        "schemaId": 1923,
+        "entityType": "内容截止时间",
+        "priority": "MEDIUM"
+      },
+      {
+        "schemaId": 1928,
+        "entityType": "募集基金份额",
+        "priority": "MEDIUM"
+      },
+      {
+        "schemaId": 1925,
+        "entityType": "募集结束时间",
+        "priority": "MEDIUM"
+      },
+      {
+        "schemaId": 1922,
+        "entityType": "基金合同生效日",
+        "priority": "MEDIUM"
+      },
+      {
+        "schemaId": 1917,
+        "entityType": "基金名称",
+        "priority": "MEDIUM"
+      },
+      {
+        "schemaId": 1919,
+        "entityType": "基金托管人",
+        "priority": "MEDIUM"
+      },
+      {
+        "schemaId": 1918,
+        "entityType": "基金管理人",
+        "priority": "MEDIUM"
+      },
+      {
+        "schemaId": 1921,
+        "entityType": "基金类别",
+        "priority": "MEDIUM"
+      },
+      {
+        "schemaId": 1920,
+        "entityType": "基金经理",
+        "priority": "MEDIUM"
+      },
+      {
+        "schemaId": 1926,
+        "entityType": "开放申购时间",
+        "priority": "MEDIUM"
+      },
+      {
+        "schemaId": 1927,
+        "entityType": "开放赎回时间",
+        "priority": "MEDIUM"
+      },
+      {
+        "schemaId": 1930,
+        "entityType": "报告期末基金资产",
+        "priority": "MEDIUM"
+      },
+      {
+        "schemaId": 1929,
+        "entityType": "认购户数",
+        "priority": "MEDIUM"
+      },
+      {
+        "schemaId": 1924,
+        "entityType": "财务数据和净值表现截止时间",
+        "priority": "MEDIUM"
+      }
+    ]
+}
