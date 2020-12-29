@@ -1,4 +1,6 @@
 # -*- coding: utf-8 -*-
+import traceback
+
 from flask import jsonify, Flask, request, render_template, send_from_directory
 import time
 import os
@@ -34,7 +36,9 @@ def api_upload():
         try:
             list2csv.zip2csv(f, zip_filename, zip_filename + '.csv')
             return send_from_directory('result', zip_filename + '.csv', as_attachment=True)  # 下载文件
-        except Exception as e:  # 异常捕获，打印到日志中
+        except:  # 异常捕获，打印到日志中
+            error = traceback.format_exc().split('\n')  # 返回异常所在位置，字符串形式，不保存到文件
+            print(error)
             return jsonify({"errno": 1001, "errmsg": "上传成功，下载失败"})
     else:
         return jsonify({"errno": 1002, "errmsg": "上传失败"})
